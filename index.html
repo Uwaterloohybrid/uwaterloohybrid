@@ -21,9 +21,22 @@
 
             </li>
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
-        <section class="top-bar-section">
+
+        <section class="top-bar-section hide-for-small">
+            <!-- Right Nav Section -->
+            <ul class="">
+                <li class="B1 active"><a href="/">HOME</a></li>
+                <li class="B1"><a href="team.html">THE TEAM</a></li>
+                <li class="B2"><a href="https://waterloohybrid.wordpress.com/">NEWS</a></li>
+                <li class="B3"><a href="competition.html">THE COMPETITION</a></li>
+                <li class="B4"><a href="sponsors.html">SPONSORS</a></li>
+                <li class="B4"><a href="vehicle.html">THE CAR</a></li>
+                <li class="B4"><a href="media.html">MEDIA</a></li>
+                <li class="B4"><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </section>
+        <section class=" hide-for-medium-up">
             <!-- Right Nav Section -->
             <ul class="">
                 <li class="B1 active"><a href="/">HOME</a></li>
@@ -37,6 +50,7 @@
             </ul>
         </section>
     </nav>
+
 
 </div>
 
@@ -85,5 +99,18 @@
     <script>
       $(document).foundation();
     </script>
+<script src="js/smoothscroll.js"></script>
+
+    <script>
+        $('.button').on('click', function() {
+            $.smoothScroll({
+                scrollElement: null,
+                scrollTarget: '#page2',
+                offset: -50
+            });
+            return false;
+        });
+    </script>
+
   </body>
 </html>
