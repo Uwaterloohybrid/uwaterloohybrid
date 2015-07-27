@@ -1,1 +1,1 @@
-# uwaterloohybrid
+# WaterlooSDC
