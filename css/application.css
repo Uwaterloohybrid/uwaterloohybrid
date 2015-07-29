@@ -1,11 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
 p{
     font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
 }
 li{
     font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
 }
 div{
     font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
+}
+h1{
+    font-weight: 200 !important;
+    font-family: "Open Sans", sans-serif !important;
 }
 .top-bar{
     height: 70px !important;
@@ -133,7 +142,7 @@ div{
 }
 h1{
     color:white !important;
-    font-weight: 100;
+    font-weight: 300 !important;
 }
 .panel{
     background: #373737;
