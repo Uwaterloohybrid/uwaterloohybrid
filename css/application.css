@@ -33,11 +33,11 @@ h1{
     background-size: cover;
     height: 875px;
     width: 100%;
-    position: fixed;
+    /*position: fixed;*/
     z-index: 1;
 }
 #page1 {
-    margin-top: 90px;
+    /*margin-top: 90px;*/
     padding-top: 250px;
     background-color: ;
     position: relative;
@@ -54,7 +54,7 @@ h1{
 }
 #page2 p{
     font-size:16pt;
-    border-left: 10px solid green;
+    border-left: 1px solid green;
     padding-left: 20px;
 }
 #page2 h1{
@@ -191,7 +191,9 @@ h2{
     color:green !important;
 }
 h3{
-    color:white !important;
+    color:green !important;
+    font-weight: 200 !important;
+    margin-bottom: -15px;
 }
 li{
     font-size:16pt !important;
