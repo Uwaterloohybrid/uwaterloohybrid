@@ -331,5 +331,10 @@ hr{
 ul{
     padding-left:20px;
 }
-
+.membername{
+    font-size:1rem;
+}
+.reallylongname{
+    font-size: 0.9rem;
+}
 
