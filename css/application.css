@@ -352,4 +352,9 @@ ul{
     height: 80px;
     padding-top:16px;
 }
-
+.learning{
+    margin-top:100px;
+}
+.learning h1{
+    color:black !important;
+}
