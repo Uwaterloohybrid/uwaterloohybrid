@@ -30,6 +30,8 @@ h1{
 .tb2custom {
     min-height: 60px;
     padding-top:0px;
+    background: rgba(0,0,0,0.8) !important;
+    z-index: 100;
 }
 
 .fullWidth{
@@ -357,4 +359,44 @@ ul{
 }
 .learning h1{
     color:black !important;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("img/bg2.jpg");
+    no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.top-bar{
+    background:none;
+}
+.fixed{
+    background:rgba;
+}
+.top-bar-section ul li{
+    background:none !important;
+}
+.top-bar-section ul li a{
+    background:none !important;
+}
+.top-bar-section ul li a:hover{
+    background:white !important;
+    color:green !important;
+}
+.top-bar-section ul .active{
+    background:white !important;
+}
+.top-bar-section ul .active a{
+    color:green !important;
 }

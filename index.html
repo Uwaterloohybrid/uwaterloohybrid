@@ -91,10 +91,14 @@
 
   <div class="bg">
   <div class="fullWidth">
+    <video autoplay loop poster="polina.jpg" id="bgvid">
+      <source src="polina.webm" type="video/webm">
+      <source src="video.mp4" type="video/mp4">
+    </video>
       <div id="page1">
           <div class="row">
               <div class="small-10 columns small-centered text-center">
-                  <h1><span style="color:white;text-shadow: 0px 0px 5px rgba(20, 20, 20, 1);font-size:3.75rem !important;">Let's Race</span></h1></div>
+                  <h1><span style="color:white;text-shadow: 0px 0px 4px rgba(20, 20, 20, 2);font-size:3.75rem !important;">Let's Race</span></h1></div>
           </div>
           <div class="row">
               <div class="button small-6 medium-2 medium-offset-5 columns small-offset-3">Learn More</div></div>
@@ -133,6 +137,11 @@
 <script src="js/smoothscroll.js"></script>
 
     <script>
+      $(document).ready(function() {
+        var winheight = $( window ).height();
+        $('#page1').css('height',winheight-80)
+        $('.fixed').css('background','rgba(0,0,0,0.8)')
+      })
         $('.button').on('click', function() {
             $.smoothScroll({
                 scrollElement: null,
