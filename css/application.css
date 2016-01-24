@@ -78,6 +78,12 @@ h1{
 #page2 h1{
     color:green !important;
 }
+#page2 h2{
+    color:green;
+    font-weight: 100;
+    font-size:22pt;
+    font-family: "Open Sans", sans-serif;
+}
 #page3 {
     background-color: #FFF;
     height: 675px;
